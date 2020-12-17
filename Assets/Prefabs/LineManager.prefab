@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5276458950433035888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5276458950433035890}
+  - component: {fileID: 5276458950433035891}
+  m_Layer: 0
+  m_Name: LineManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5276458950433035890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5276458950433035888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.083279, y: 1.3584182, z: -3.182049}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5276458950433035891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5276458950433035888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42cdc1da851e5f4fb45dba8476a34f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentNumCode: 0
+  clipText:
+  - Agent! Are you Okay? We lost you in the storm.
+  - "I\u2019m okay. How far to Evilbad HQ?"
+  - About a hundred meters. Talk to you when you get there.
+  - "You\u2019re here. Remember: Act Evil."
+  - "Ah, our final guest. You must be\u2026"
+  - "Not a Secret Agent, that\u2019s for sure."
+  - Of course! Only treasured members of the Evilbad Family have this address-
+  - Out of my way, imbecile!
+  - "You\u2019re supposed to be Fredrick Evilbad? My beloved nephew?"
+  - I sure am!
+  - "Hmm. You know, I did so many crimes with Fredrick. I stole sharks from the natural
+    history museum with him. I blew up the Eiffel Tower with him. You\u2019re wearing
+    his favorite blue sweater vest but\u2026 hmm."
+  - Boss?
+  - "You know, the one thing that Fredrick was good at- was cooking a great steak.
+    If you\u2019re the real Fredrick, you\u2019ll be able to do it just like I remember
+    it."
+  - "Agent? What\u2019s happening? Why are your sensors picking up seasoning?"
+  - "The family has me grilling, to prove I\u2019m really who I say I am."
+  - "But you can\u2019t cook!"
+  - I know.
+  - Just try to cook each side of the steak for roughly the same length of time. Roughly.
+  - "Not gonna lie, that was a really great steak. You have Fredrick\u2019s skill
+    with a skillet."
+  - "That\u2019s because I\u2019m the real Frederick."
+  - Hmm.
+  - "Uh oh. Boss, it\u2019s Auntie."
+  - "Uh oh indeed. We didn\u2019t invite her to the party. You were always great at
+    calming her down, Frederick. Pick up the phone."
+  - "Hello dears! Just calling to make sure there are people in the house. The lights
+    are on, but I never got an invite to any party. Ha! Well, it\u2019s good to know
+    that I won\u2019t be wasting any of these stolen nukes by firing them at the house!"
+  - Auntie! Calm down!
+  - Calm down? CALM DOWN? HOW ABOUT YOUR ASHES CALM DOWN!
+  - It was an honest misunderstanding! You know how Uncle Evilbad gets forgetful sometimes!
+  - "Oh please. I\u2019ve heard that excuse before."
+  - "Remember the time he \u201Cforgot\u201D to invite me to the joint bank/McDonald\u2019s
+    robbery? Or the Great Penguin Swap of \u201882?"
+  - "The Great\u2026 what?"
+  - "The Great Penguin Swap of \u201882! How could you forget? It was my magnum opus
+    and you just forgot about it? That\u2019s it."
+  - Oh, the Great Penguin Swap! I remember the Penguin Swap!
+  - Right? And Frank never invited me to it! To my own evil plan!
+  - "Honestly. I put so much into this family and this is how I\u2019m treated?"
+  - Is it maybe because you keep threatening to nuke us?
+  - Oh yeah! The nukes! Thanks for reminding me!
+  - "We value you! We really do! We\u2019ve been talking about how we miss you!"
+  - "\u2026 Really? You\u2019ve been talking about me!"
+  - "What uh\u2026 what have you been talking about?"
+  - The time you blew up the Eiffel Tower!
+  - "The WHAT? I wasn\u2019t even there for that!"
+  - "The famous joint Bank/McDonald\u2019s Robbery!"
+  - Wow! See, I knew that was one for the history books!
+  - "You know what, it would honestly be a waste of these nukes to blow you guys up.
+    There\u2019s dozens of secret BKA bases I found the location of, I\u2019ll blow
+    those up instead."
+  - Uh, Okay! Great plan, Auntie!
+  - Thanks! See you next year!
+  - "Well, we aren\u2019t all dead, so thanks for that. I think you\u2019ve proven
+    yourself a worthy member of the Evilbad family, Frederick."
+  - Uh, thank you, Uncle.
+  - "I think it\u2019s time we get to work. As the world\u2019s most evil family,
+    it\u2019s time we get our beloved nephew reacquainted with the family business."
+  - Keep him going. This is going to sound GREAT at the court hearing.
+  - Evil stuff, huh? What kind of evil stuff?
+  - "Well, we do all kinds of evil stuff, but the core of the family business\u2026
+    it\u2019s depraved. It\u2019s ruthless. It\u2019s indisputably evil."
+  - Movie Piracy.
+  - Movie Piracy? Really?
+  - "Hey, what\u2019s more evil than this? Nothing. That\u2019s what. And now you\u2019re
+    gonna help us out. We got a quota of 3 movies downloaded every 20 seconds. But
+    make sure not to click on any of the virus downloaders- or we\u2019ll kick ya
+    back out into the cold!"
+  - "Alright everybody! We\u2019ve got 20 seconds of work in, now it\u2019s time for
+    our mandatory 15 minute break."
+  - "They\u2019re all leaving to have lunch. Now\u2019s the time to try and take out
+    the Boss. Just let me hack into the security system to disable it\u2026"
+  - "Uh oh? What\u2019s uh oh?"
+  - WHAT DID YOU DO?
+  - "MY FINGERS SLIPPED AND I ACCIDENTALLY PRESSED THE \u201CSELF-DESTRUCT\u201D BUTTON
+    INSTEAD OF THE \u201CDISABLE BUTTON\u201D!"
+  - SELF-DESTRUCT?
+  - "IT\u2019S OK, IT\u2019S OK, IT\u2019S OK, UMMM- SEE THOSE 4 EXPOSED WIRE BOXES
+    ON THE WALL? I NEED YOU TO SNIP ONE EACH, IN THIS ORDER: RED, GREEN, YELLOW, BLUE."
+  - RED, GREEN, YELLOW, BLUE. GOT IT.
+  - OH, AND YOU HAVE 15 SECONDS.
+  - WHAT?
+  - NO TIME FOR TALK! GO!
+  - "Okay, I did it. I\u2019m not dead."
+  - "Great job! Sorry about the scare. On the bright side, the HQ is in chaos right
+    now, and all the security is disabled. Now\u2019s the time to go after the Boss-
+    and end this once and for all. "
+  - "Great job! Sorry about the scare. On the bright side, the HQ is in chaos right
+    now, and all the security is disabled. Now\u2019s the time to go after the Boss-
+    and end this once and for all. "
+  - What the-
+  - 'Oh, hey Agent! Thanks for coming to help, but no need. I already got this guy
+    cuffed and tranquilized. '
+  - "You were a double agent this whole time? You aren\u2019t a BKA Agent, who are
+    you?"
+  - "I\u2019m with Interpol! "
+  - "Interpol\u2026"
+  - "We\u2019ve been tracking this guy for a while, looks like we just got here first.
+    I have to say, though, you were a terrible Fredrick. I mean, you don\u2019t even
+    look like him. I knew right away."
+  - "Sorry you didn\u2019t get the big win Agent, but- one more thing? Before you
+    leave?"
+  - Hmm?
+  - "Can you grab me that steak you were making earlier? I haven\u2019t eaten anything
+    today, and it looked really good."
+  - Alright.
+  - Thank you, Agent. That will be all.
+  - '... uh oh.'
+  clipDelay:
+  - 4
+  - 3
+  - 3.5
+  - 3.5
+  - 4
+  - 2.5
+  - 6
+  - 2
+  - 5
+  - 2
+  - 15
+  - 1
+  - 10
+  - 5
+  - 5
+  - 2.5
+  - 1.5
+  - 6
+  - 6
+  - 3
+  - 2
+  - 3
+  - 9
+  - 15
+  - 2.5
+  - 6.5
+  - 5
+  - 3
+  - 8
+  - 2.5
+  - 7
+  - 5
+  - 5
+  - 4
+  - 3.5
+  - 3
+  - 5
+  - 3
+  - 4.5
+  - 3.5
+  - 2.5
+  - 4
+  - 4.5
+  - 11
+  - 3
+  - 2
+  - 9
+  - 2.5
+  - 12.5
+  - 5.5
+  - 4
+  - 12
+  - 3
+  - 3
+  - 16
+  - 6.5
+  - 8
+  - 2.5
+  - 2
+  - 5
+  - 2
+  - 12
+  - 3
+  - 2
+  - 1
+  - 2
+  - 3
+  - 13
+  - 0
+  - 1
+  - 8.5
+  - 5
+  - 1.5
+  - 2.5
+  - 13
+  - 5
+  - 1
+  - 6.5
+  - 2
+  - 2.5
+  - 1
+  currentDelay: 0
+  sceneNum: 0
+  timer: 0
+  startTime: 0
+  textBox: {fileID: 0}
+  firstLoop: 0
+  dialogueOn: 1
+  doorman: {fileID: 0}
+  evilbad: {fileID: 0}

@@ -1,0 +1,587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9127082556707864162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9127082556707864160}
+  - component: {fileID: 9127082556707864161}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9127082556707864160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9127082556707864162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 412.70682, y: 236.40321, z: -9.087959}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9127082556707864161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9127082556707864162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 492e56b71e2d04a499484cc58f5eedef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: clip1
+    clip: {fileID: 8300000, guid: 979fc1ca5b628c3459f10bc7690438e6, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip2
+    clip: {fileID: 8300000, guid: 9c40aaba7cab3034a88b85977b6a0b31, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip3
+    clip: {fileID: 8300000, guid: a44ee39c788d4bd4aba62374f5ad404c, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip4
+    clip: {fileID: 8300000, guid: 9dc2b6d9385c0b34d9e88a4249ebe675, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip5
+    clip: {fileID: 8300000, guid: 8e9941e149a9bab4b9e54dc11d7b533d, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip6
+    clip: {fileID: 8300000, guid: 26c3725b340205f46b9bf6b31352c009, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip7
+    clip: {fileID: 8300000, guid: de9bae11020496e4c8961c2c368ba28d, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip8
+    clip: {fileID: 8300000, guid: 2b10fe1c7ae8dfc4d8909bab29f4a8c0, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip9
+    clip: {fileID: 8300000, guid: 2f40dc5bfefcbdf458f476af64e7fe0c, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip10
+    clip: {fileID: 8300000, guid: cc8e8d74062047e4a91d400a6d42322b, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip11
+    clip: {fileID: 8300000, guid: 6f914ad11900fb5448316f2587bb784a, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip12
+    clip: {fileID: 8300000, guid: 4f45cc4f649621249860aef1356bc276, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip13
+    clip: {fileID: 8300000, guid: b443f0d12f5b1c141a6863d12ad3afb7, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip14
+    clip: {fileID: 8300000, guid: 970e806c1ca543c4091899c9eac0ff41, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip15
+    clip: {fileID: 8300000, guid: 3fbc211f21c1a1141acd466037c5dc70, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip16
+    clip: {fileID: 8300000, guid: fd6da95e1fb071641b6879ba60da7346, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip17
+    clip: {fileID: 8300000, guid: b2aaddfa77f1fa74b9a8d4a877de443f, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip18
+    clip: {fileID: 8300000, guid: b6506549c127196479d2833bd43b038e, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip19
+    clip: {fileID: 8300000, guid: d84675df265e9bb40b7d6c18813a2474, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip20
+    clip: {fileID: 8300000, guid: 66d2b71a121b03b4fa08479b8201355e, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip21
+    clip: {fileID: 8300000, guid: 408f7a6c8d036c04b82d52681b04a1c6, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip22
+    clip: {fileID: 8300000, guid: 3c23828ee15967e4cae94531201ce7ff, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip23
+    clip: {fileID: 8300000, guid: 5f7d9179235d3f84a83b402ef2785843, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip24
+    clip: {fileID: 8300000, guid: 8aecb79c47e6af54aa0b745f2625bfbc, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip25
+    clip: {fileID: 8300000, guid: edc658a3ab21b7248aad104e07c8d4cc, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip26
+    clip: {fileID: 8300000, guid: 992b4d0685ca8af4fa3c55ce48572ff2, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip27
+    clip: {fileID: 8300000, guid: 1f6e1aafb9596ac41b6d2742a1963d0e, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip28
+    clip: {fileID: 8300000, guid: 9a18708b16289d94e8dcb9a686d4874c, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip29
+    clip: {fileID: 8300000, guid: fba71014bc4aece4dafabf016eced3c1, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip30
+    clip: {fileID: 8300000, guid: fc8d17f3f9d774941aabf0fdea7fd94d, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip31
+    clip: {fileID: 8300000, guid: 64e3fb9e08dc7944880c8f5e619b2ff0, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip32
+    clip: {fileID: 8300000, guid: fae8b43f87ec4624b80c605b3f3d0489, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip33
+    clip: {fileID: 8300000, guid: 5f6f63f495c87db41b4f508c9b0ebf4a, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip34
+    clip: {fileID: 8300000, guid: f604eb417bcd11e4daa2d26134bbcd8d, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip35
+    clip: {fileID: 8300000, guid: d68c195342b143a438d39dbd8eac32db, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip36
+    clip: {fileID: 8300000, guid: 1b68d5bbe2eece64f9295ba88633ddcb, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip37
+    clip: {fileID: 8300000, guid: 565c21e2f9567c447973bc35344812db, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip38
+    clip: {fileID: 8300000, guid: 479a8034a8f55084c8618cd31ba1e594, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip39
+    clip: {fileID: 8300000, guid: ffd6535a704066746bfe065492271be8, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip40
+    clip: {fileID: 8300000, guid: 4963a1f2bb0ec8545a7a21c8bfc48dd3, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip41
+    clip: {fileID: 8300000, guid: 117ca342c3852a740970922e06c1bb8a, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip42
+    clip: {fileID: 8300000, guid: f58c346d8942d714583f9c00fc0315f5, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip43
+    clip: {fileID: 8300000, guid: ae9e7e380b3ef834d847629225329bd8, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip44
+    clip: {fileID: 8300000, guid: 56fc8c37fe7dd4748b66ef4fca973890, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip45
+    clip: {fileID: 8300000, guid: 8425b33d9ff437c43a94734fb63935ce, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip46
+    clip: {fileID: 8300000, guid: 63919882d5b1187449cd7a426031b394, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip47
+    clip: {fileID: 8300000, guid: 2b081f73de0ba714dae279f13abb53ae, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip48
+    clip: {fileID: 8300000, guid: 601ffdfc851803b4c8c07670c90b3e15, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip49
+    clip: {fileID: 8300000, guid: 2f402fc2ca2df0e46bde59f8dcb4b5f7, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip50
+    clip: {fileID: 8300000, guid: bb63c76b506bccb4197c774d196e263f, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip51
+    clip: {fileID: 8300000, guid: 98ebb148a037c6d49b92d0c79a7db1aa, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip52
+    clip: {fileID: 8300000, guid: 28e7e876d4ec0ee45a04456f8c91c105, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip52a
+    clip: {fileID: 8300000, guid: 1001bab3d24d1b746b8a4ddcf14ca4f9, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip53
+    clip: {fileID: 8300000, guid: 8f2a30ba186eb4e4b99e141a900208d9, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip54
+    clip: {fileID: 8300000, guid: 2ac42beeefa1a8a4d8532e758276963d, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip55
+    clip: {fileID: 8300000, guid: 58aa0f6f4f37751419169f41675b5fc7, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip56
+    clip: {fileID: 8300000, guid: 4be728fcc6feb2d4e897ce523fd6dc46, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip57
+    clip: {fileID: 8300000, guid: 6ce9feeb23eb9a94e9c8b24ccac08f50, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip58
+    clip: {fileID: 8300000, guid: 19f0c36b14eb6f0479304beea374ea86, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip59
+    clip: {fileID: 8300000, guid: b0d4ceabe0343c74fa7f27a5a66f9eb7, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip60
+    clip: {fileID: 8300000, guid: 551586e5fb071ed4e9154213b476e173, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip61
+    clip: {fileID: 8300000, guid: dc222b6a69dff6a43816e2686eead626, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip62
+    clip: {fileID: 8300000, guid: 63fa592f7e107b1458f29dd0987f66d3, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip63
+    clip: {fileID: 8300000, guid: 4aa41bc451366dd4da45c4ca86cac1fd, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip64
+    clip: {fileID: 8300000, guid: 7257ed77ac0c721439cb0d0730084b9e, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip65
+    clip: {fileID: 8300000, guid: 06b88be84f67def40803a05c33688369, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip66
+    clip: {fileID: 8300000, guid: 2749305ed96e81147af3b94754d8ec9c, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip67
+    clip: {fileID: 8300000, guid: 13e83f2b183899c41947e1f48361bca1, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip68
+    clip: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip69
+    clip: {fileID: 8300000, guid: e9130da86f5db2d419fe06745068096a, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip70
+    clip: {fileID: 8300000, guid: 81b149eaab682884c98ccb056e6ab0c1, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip71
+    clip: {fileID: 8300000, guid: 4b9813b0798b40341a66b43669470a9e, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip72
+    clip: {fileID: 8300000, guid: 98b5696d716119f419582cf6016f9a53, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip73
+    clip: {fileID: 8300000, guid: 1a28ba6e968aee648884b55c265f9702, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip74
+    clip: {fileID: 8300000, guid: 86dddae2f22c76a4a89a2058c738e980, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip75
+    clip: {fileID: 8300000, guid: 353129ab88fc7e2419929f6a7f9edd0c, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip76
+    clip: {fileID: 8300000, guid: 3848ad5a44945d34aa794000da3bea86, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip77
+    clip: {fileID: 8300000, guid: f351d7d785e54f648943c7593ea82cc5, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip78
+    clip: {fileID: 8300000, guid: 614803c7d37fea443b7cebccf4226b87, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip79
+    clip: {fileID: 8300000, guid: cb1b3a725ef2ff6429f21eb97af521a6, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clip56a
+    clip: {fileID: 8300000, guid: 71ea097fdd96559459570d164a9684c6, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: wind
+    clip: {fileID: 8300000, guid: 51052aa6835cc374e8549bcadf0b30c1, type: 3}
+    volume: 0.286
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: begin
+    clip: {fileID: 8300000, guid: 6b92e4a2fc6f05646b38e1fbaf20b112, type: 3}
+    volume: 0.368
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: success
+    clip: {fileID: 8300000, guid: 20ec58de34460ba4785adf08ac084eab, type: 3}
+    volume: 0.393
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: failure
+    clip: {fileID: 8300000, guid: f7506f4c1fb8c1641ad314b38d0e2963, type: 3}
+    volume: 0.419
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: sizzle
+    clip: {fileID: 8300000, guid: 66621f771eb5bf04bb9c0de6c2db7e22, type: 3}
+    volume: 0.082
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: phone
+    clip: {fileID: 8300000, guid: 0c9069ac1e000bb41b8a5ffc88c3a484, type: 3}
+    volume: 0.082
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: alarm
+    clip: {fileID: 8300000, guid: ef05bea891f9a904d816f972343af244, type: 3}
+    volume: 0.159
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: gun
+    clip: {fileID: 8300000, guid: 728bbc12b7d285d49bc818c1c8fc317a, type: 3}
+    volume: 0.185
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: theme
+    clip: {fileID: 8300000, guid: 9163e4d4d5242b845856e07f297da39f, type: 3}
+    volume: 0.184
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  initialSceneNum: 0
